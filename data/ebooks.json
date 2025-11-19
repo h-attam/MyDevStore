@@ -1,0 +1,84 @@
+[
+  {
+    "id": "1",
+    "title": "JavaScript Temelleri",
+    "author": "Web Dev Academy",
+    "price": 29.99,
+    "description": "JavaScript programlama dilinin temellerini öğrenin. Değişkenler, fonksiyonlar, döngüler, ve DOM manipülasyonu.",
+    "cover_image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800",
+    "download_url": "https://example.com/ebooks/javascript-temelleri.pdf"
+  },
+  {
+    "id": "2",
+    "title": "React.js Öğreniyorum",
+    "author": "React Master",
+    "price": 39.99,
+    "description": "React.js ile modern web uygulamaları geliştirmeyi öğrenin. Components, props, state, ve hooks.",
+    "cover_image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800",
+    "download_url": "https://example.com/ebooks/react-ogreniyorum.pdf"
+  },
+  {
+    "id": "3",
+    "title": "CSS Modern Teknikler",
+    "author": "CSS Expert",
+    "price": 24.99,
+    "description": "Modern CSS tekniklerini öğrenin. Flexbox, Grid, Animations, ve responsive design patterns.",
+    "cover_image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=800",
+    "download_url": "https://example.com/ebooks/css-modern-teknikler.pdf"
+  },
+  {
+    "id": "4",
+    "title": "Next.js ile Full-Stack",
+    "author": "Next.js Pro",
+    "price": 44.99,
+    "description": "Next.js 14 ile full-stack uygulamalar geliştirin. App Router, Server Components, ve API Routes.",
+    "cover_image": "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800",
+    "download_url": "https://example.com/ebooks/nextjs-fullstack.pdf"
+  },
+  {
+    "id": "5",
+    "title": "TypeScript Handbook",
+    "author": "TypeScript Team",
+    "price": 34.99,
+    "description": "TypeScript ile tip güvenli kod yazmayı öğrenin. Types, interfaces, generics, ve advanced patterns.",
+    "cover_image": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800",
+    "download_url": "https://example.com/ebooks/typescript-handbook.pdf"
+  },
+  {
+    "id": "6",
+    "title": "Git ve GitHub Rehberi",
+    "author": "Version Control Pro",
+    "price": 19.99,
+    "description": "Git ve GitHub kullanımını öğrenin. Branching, merging, pull requests, ve collaboration workflows.",
+    "cover_image": "https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=800",
+    "download_url": "https://example.com/ebooks/git-github-rehberi.pdf"
+  },
+  {
+    "id": "7",
+    "title": "Responsive Web Tasarım",
+    "author": "UI/UX Master",
+    "price": 27.99,
+    "description": "Responsive web tasarım tekniklerini öğrenin. Mobile-first approach, breakpoints, ve media queries.",
+    "cover_image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800",
+    "download_url": "https://example.com/ebooks/responsive-web-tasarim.pdf"
+  },
+  {
+    "id": "8",
+    "title": "API Development Basics",
+    "author": "Backend Developer",
+    "price": 37.99,
+    "description": "RESTful API geliştirmenin temellerini öğrenin. Endpoints, HTTP methods, authentication, ve best practices.",
+    "cover_image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800",
+    "download_url": "https://example.com/ebooks/api-development-basics.pdf"
+  },
+  {
+    "id": "9",
+    "title": "Vue.js ile Modern Frontend",
+    "author": "Vue.js Expert",
+    "price": 42.99,
+    "description": "Vue.js 3 ile modern frontend geliştirme. Composition API, Vue Router, Pinia, ve Nuxt.js entegrasyonu.",
+    "cover_image": "https://images.unsplash.com/photo-1587829741301-dc528b74c769?w=800",
+    "download_url": "https://example.com/ebooks/vuejs-modern-frontend.pdf"
+  }
+]
+

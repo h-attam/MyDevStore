@@ -1,0 +1,99 @@
+[
+  {
+    "id": "1",
+    "name": "JavaScript Kitabı",
+    "price": 89.99,
+    "description": "JavaScript programlama dilini sıfırdan öğrenmek için kapsamlı bir rehber. Modern ES6+ özellikleri, async/await, promises, ve daha fazlası. 500+ sayfa detaylı içerik.",
+    "image_url": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=800",
+    "category": "Kitap"
+  },
+  {
+    "id": "2",
+    "name": "React.js Kursu",
+    "price": 149.99,
+    "description": "React ile modern web uygulamaları geliştirmeyi öğrenin. Hooks, Context API, Redux, ve Next.js entegrasyonu dahil. 20+ saat video içerik.",
+    "image_url": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800",
+    "category": "Kurs"
+  },
+  {
+    "id": "3",
+    "name": "Programcı T-Shirt",
+    "price": 129.99,
+    "description": "Programcılar için özel tasarlanmış rahat ve şık t-shirt. %100 pamuk, çeşitli renkler ve kod temalı baskılar. Premium kalite.",
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800",
+    "category": "Aksesuar"
+  },
+  {
+    "id": "4",
+    "name": "Next.js E-Kitap",
+    "price": 59.99,
+    "description": "Next.js 14 ile full-stack uygulamalar geliştirin. App Router, Server Components, API Routes, ve deployment stratejileri.",
+    "image_url": "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800",
+    "category": "Kitap"
+  },
+  {
+    "id": "5",
+    "name": "TypeScript Rehberi",
+    "price": 79.99,
+    "description": "TypeScript ile tip güvenli kod yazmayı öğrenin. Advanced types, generics, decorators, ve best practices. 400+ sayfa.",
+    "image_url": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800",
+    "category": "Kitap"
+  },
+  {
+    "id": "6",
+    "name": "Web Development Seti",
+    "price": 199.99,
+    "description": "Web geliştirme için gerekli tüm araçlar. Premium klavye, ergonomik mouse, ve ayarlanabilir laptop standı dahil.",
+    "image_url": "https://images.unsplash.com/photo-1527864550417-7f91a2e2d6e2?w=800",
+    "category": "Aksesuar"
+  },
+  {
+    "id": "7",
+    "name": "Python Başlangıç Kitabı",
+    "price": 69.99,
+    "description": "Python programlama diline sıfırdan başlamak için ideal kitap. Temel syntax, OOP, data structures, ve web development.",
+    "image_url": "https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=800",
+    "category": "Kitap"
+  },
+  {
+    "id": "8",
+    "name": "Developer Mouse Pad",
+    "price": 49.99,
+    "description": "Programcılar için özel tasarlanmış geniş mouse pad. RGB aydınlatma, ergonomik tasarım, ve premium yüzey kaplaması.",
+    "image_url": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800",
+    "category": "Aksesuar"
+  },
+  {
+    "id": "9",
+    "name": "Node.js Masterclass",
+    "price": 179.99,
+    "description": "Node.js ile backend geliştirme masterclass. Express.js, RESTful APIs, authentication, database integration, ve deployment.",
+    "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800",
+    "category": "Kurs"
+  },
+  {
+    "id": "10",
+    "name": "Coding Laptop Sticker",
+    "price": 19.99,
+    "description": "Laptop'unuzu kişiselleştirin! Çeşitli programlama dilleri ve teknolojiler temalı premium sticker seti. 20+ farklı tasarım.",
+    "image_url": "https://images.unsplash.com/photo-1587829741301-dc528b74c769?w=800",
+    "category": "Aksesuar"
+  },
+  {
+    "id": "11",
+    "name": "Vue.js Complete Guide",
+    "price": 94.99,
+    "description": "Vue.js 3 ile modern frontend geliştirme. Composition API, Vue Router, Pinia state management, ve best practices.",
+    "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800",
+    "category": "Kitap"
+  },
+  {
+    "id": "12",
+    "name": "Full Stack Developer Bootcamp",
+    "price": 249.99,
+    "description": "Sıfırdan full-stack developer olun. Frontend, backend, database, deployment, ve DevOps. 40+ saat video içerik.",
+    "image_url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800",
+    "category": "Kurs"
+  }
+]
+

@@ -1,0 +1,222 @@
+{
+  "projectContext": {
+    "name": "Next.js E-ticaret Portfolio Sitesi",
+    "description": "E-kitap ve ürün satışı + kişisel portfolio sitesi",
+    "techStack": ["Next.js 14", "TypeScript", "Supabase", "Tailwind CSS", "Stripe API"]
+  },
+  "codingRules": {
+    "fileStructure": {
+      "required": true,
+      "structure": [
+        "app/ - Next.js app router",
+        "app/api/ - API routes",
+        "app/products/ - Ürün sayfaları",
+        "app/books/ - E-kitap sayfaları", 
+        "app/about/ - Hakkımda sayfası",
+        "components/ - Reusable components",
+        "lib/ - Utilities ve configler",
+        "types/ - TypeScript type'ları",
+        "public/ - Static assets"
+      ]
+    },
+    "namingConventions": {
+      "components": "PascalCase (ProductCard.tsx)",
+      "pages": "kebab-case (product-detail.tsx)",
+      "variables": "camelCase (userData)",
+      "constants": "UPPER_CASE (API_URL)"
+    }
+  },
+  "techStackRules": {
+    "nextjs": {
+      "version": "14+",
+      "appRouter": true,
+      "serverComponents": true,
+      "required": [
+        "use client for interactivity",
+        "metadata API for SEO",
+        "loading.tsx for suspense"
+      ]
+    },
+    "supabase": {
+      "setup": {
+        "environmentVariables": [
+          "NEXT_PUBLIC_SUPABASE_URL",
+          "NEXT_PUBLIC_SUPABASE_ANON_KEY",
+          "SUPABASE_SERVICE_ROLE_KEY"
+        ]
+      },
+      "database": {
+        "tables": [
+          "products (id, name, price, description, image_url, category)",
+          "ebooks (id, title, author, price, download_url, cover_image)",
+          "orders (id, user_id, total_amount, status, created_at)",
+          "order_items (order_id, product_id, quantity, price)"
+        ]
+      },
+      "auth": {
+        "required": true,
+        "providers": ["email", "google"]
+      },
+      "storage": {
+        "buckets": ["product-images", "ebook-files", "profile-pictures"]
+      }
+    },
+    "styling": {
+      "framework": "Tailwind CSS",
+      "required": [
+        "responsive design",
+        "dark mode support", 
+        "component variants"
+      ]
+    }
+  },
+  "componentRules": {
+    "productComponents": {
+      "required": [
+        "ProductCard",
+        "ProductGrid", 
+        "ProductDetail",
+        "ShoppingCart",
+        "CheckoutForm"
+      ],
+      "props": "TypeScript interfaces kullan"
+    },
+    "ebookComponents": {
+      "required": [
+        "EbookCard",
+        "ReadingPreview",
+        "DownloadButton"
+      ]
+    },
+    "layoutComponents": {
+      "required": [
+        "Header (navigation + cart)",
+        "Footer",
+        "HeroSection", 
+        "AboutSection"
+      ]
+    }
+  },
+  "apiRules": {
+    "products": {
+      "endpoints": [
+        "GET /api/products - Tüm ürünler",
+        "GET /api/products/[id] - Tekil ürün",
+        "POST /api/products - Yeni ürün (admin)"
+      ]
+    },
+    "orders": {
+      "endpoints": [
+        "POST /api/orders - Yeni sipariş",
+        "GET /api/orders/[id] - Sipariş detay"
+      ]
+    },
+    "auth": {
+      "endpoints": [
+        "POST /api/auth/register - Kayıt",
+        "POST /api/auth/login - Giriş"
+      ]
+    }
+  },
+  "securityRules": {
+    "authentication": {
+      "required": "Supabase Auth",
+      "rules": [
+        "Server actions için middleware kullan",
+        "API routes'ta role kontrolü",
+        "Sensitive data client'a exposure etme"
+      ]
+    },
+    "payments": {
+      "gateway": "Stripe",
+      "rules": [
+        "Payment intent server'da oluştur",
+        "Client secret client'a gönder", 
+        "Webhook ile ödeme onayı"
+      ]
+    }
+  },
+  "performanceRules": {
+    "optimizations": [
+      "Image optimization (next/image)",
+      "Code splitting",
+      "Static generation mümkünse",
+      "Database query optimization"
+    ],
+    "seo": [
+      "Metadata API kullan",
+      "OpenGraph tags",
+      "Structured data",
+      "Sitemap generation"
+    ]
+  },
+  "errorHandling": {
+    "validation": {
+      "forms": "Zod validation",
+      "api": "Proper HTTP status codes"
+    },
+    "ui": {
+      "loading": "Suspense boundaries",
+      "error": "error.tsx files"
+    }
+  },
+  "deploymentRules": {
+    "platform": "Vercel",
+    "environment": {
+      "variables": [
+        "DATABASE_URL",
+        "STRIPE_SECRET_KEY", 
+        "STRIPE_WEBHOOK_SECRET"
+      ]
+    }
+  },
+  "specificInstructions": {
+    "portfolioIntegration": {
+      "required": [
+        "About sayfası (skills, experience, projects)",
+        "Contact form",
+        "Social media links",
+        "Blog/Portfolio section"
+      ]
+    },
+    "ecommerceFeatures": {
+      "products": [
+        "Kategori filtreleme",
+        "Arama functionality", 
+        "Sepet management",
+        "Favoriler sistemi"
+      ],
+      "ebooks": [
+        "PDF preview",
+        "Instant download",
+        "Reading progress"
+      ]
+    }
+  },
+  "codeQuality": {
+    "typescript": {
+      "strict": true,
+      "noAny": true
+    },
+    "formatting": {
+      "prettier": true,
+      "eslint": true
+    }
+  },
+  "aiInstructions": {
+    "whenGeneratingCode": [
+      "Önce TypeScript interface'lerini tanımla",
+      "Supabase client doğru şekilde import et",
+      "Environment variables kontrol et",
+      "Error handling ekle",
+      "Loading states implement et",
+      "Responsive design sağla"
+    ],
+    "whenDebugging": [
+      "Önce Supabase connection kontrol et",
+      "Type errors'ı düzelt",
+      "Async/await hatalarını kontrol et",
+      "CORS issues için middleware kontrol et"
+    ]
+  }
+}
